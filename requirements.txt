@@ -1,0 +1,16 @@
+# Core — always required
+yt-dlp>=2024.1.0
+rich>=13.7.0
+click>=8.1.7
+python-dotenv>=1.0.0
+
+# API mode (requires ANTHROPIC_API_KEY + OPENAI_API_KEY)
+openai>=1.40.0
+anthropic>=0.34.0
+
+# Local mode — free, no API keys (install with: pip install faster-whisper ollama)
+# faster-whisper>=1.0.0     # local Whisper transcription (uncomment to install)
+# ollama>=0.2.0             # local LLM analysis via Ollama (uncomment to install)
+
+# Optional utilities
+ffmpeg-python>=0.2.0
